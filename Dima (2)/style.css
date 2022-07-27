@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:inter;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+}
+.navli{
+    list-style-type: none;
+    margin-top: 15px;
+    margin-right: 100px;
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 1100px;
+}
+.misc{
+    border: solid;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    background-color: #24AFB5;
+    border-color: #24AFB5;
+    margin-left: 10px;
+    margin-top: -10px;
+    display: flex;
+}
+.flex{
+    margin-top: 8px;
+    color:white;
+}
+.dumalo{
+    margin-top:2px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+}
+.oq{
+    color:#24AFB5;
+    margin-right: 6px;
+}
+
+
+.button{
+    display: flex;
+}
+.first{
+    margin-left: 20px;
+}
+.foto{
+    width: 450px;
+}
+.rasm{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.tortinci{
+    display: flex;
+    flex-direction: column;
+}
+.haw{
+    font-size: 21px;
+    font-weight: 100;
+    width: 360px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.ikkinci{
+    width:480px;
+    margin-top: 20px;
+    margin-left: 48px;
+    color: #969696;
+}
+.ton{
+    width: 120px;
+    height: 45px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background-color: #24AFB5;
+     margin-left: 50px;
+     margin-top: 40px;
+    border: solid;
+    border-radius: 8px;
+    border-color: #24AFB5;
+    
+
+}
+.style{
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+}
+.hamkorlar{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.partners{
+    margin-top: 100px;
+    margin-left: 100px;
+    color: #969696;
+}
+.philips{
+    width: 150px;
+    height: 40px;
+}
+.caps{
+    margin-top: 100px;
+    margin-left:50px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.no{
+    margin-top: 60px;
+    margin-left: 160px;
+    font-size: 18px;
+}
+.line{
+    width: 350px;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 20px;
+
+
+}
+.spanka{
+    margin-left: 23px;
+    margin-top: 10px;
+
+}
+.long{
+    width: 450px;
+    margin-top: 30px;
+}
+.ispan{
+    margin-left: 70px;
+}
+.get{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.sure{
+    color: #24AFB5;
+    font-size: 18px;
+}
+.caps{
+    display: flex;
+}
+.tv{
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.hammasi{
+    margin-top: 100px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.history{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.divs{
+    width:450px;
+    margin-top: 20px;
+}
+.input{
+    margin-top: 100px;
+    margin-right: 50px;
+    height: 100px;
+}
+.rit{
+    width: 300px;
+    height: 35px;
+}
+.subs{
+    border: solid;
+    width: 120px;
+    margin-left: 20px;
+    height: 34px;
+    border-radius: 5px;
+    border-color: #24AFB5;
+    background-color: #24AFB5;
+}
+.scss{
+    color: white;
+    margin-right: 8px;
+    font-size: 15px;
+}
+hr{
+    width: 1130px;
+}
+.box4{
+    margin-top: 100px;
+}
+.yuldz{
+    margin-left: 100px;
+}
+
+.so{
+    margin-top: 20px;
+    margin-left: 100px;
+} 
+.know{
+    width: 330px;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+.app{
+    width: 200px;
+    height: 60px;
+    border-radius: 6px;
+    border-color: #969696;
+    background-color: #969696;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+}
+.onthe{
+    margin-left:10px;
+    font-size: 20px;
+}
+.store{
+    margin-top: 10px;
+    margin-left: 18px;
+}
+.apple{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    color: #616161;
+}
+.markets{
+    display: flex;
+}
+.samsung{
+    width: 200px;
+    height: 60px;
+   border-radius: 6px;
+   border-color: #969696;
+   background-color: #969696;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+}
+.inthe{
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.market{
+    margin-top: 5px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.play{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 5px;
+    color: #616161;
+}
+.hoho{
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 100px;
+    color:#969696;
+}
+.box4{
+    display: flex;
+}
+.s7edge{
+    height: 400px;
+    
+}
+.box5{
+    margin-top: 100px;
+    /* margin-left: 100px; */
+}
+.each{
+    width: 250px;
+    margin: 0 auto;
+    font-size: 24px;
+    margin-top: 60px;
+}
+.face{
+    width: 600px;
+   margin: 0 auto;
+   font-size: 17px;
+   margin-top: 20px;
+
+   
+}
+.span3{
+    margin-left: 50px;
+    margin-top: 8px;
+}
+.cards{
+    margin-top: 100px;
+   
+}
+.bishop{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.esm{
+    width: 350px;
+    margin-top: 20px;
+}
+.birza{
+    margin-top: 40px;
+    font-size: 18px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.birza{
+    width: 300px;
+    display: flex;
+    margin-left: 30px;
+}
+.twiter{
+    color: #616161;
+    margin-left: 40px;
+}
+.yuz{
+    color: #616161;
+}
+.scrip{
+    color: #616161;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.cards{
+    display: flex;
+}
+.half{
+    margin-left: 20px; 
+    border: solid;
+    border-radius: 12px;
+    border-color: #DBDBDB;
+    width: 380px;
+    height: 230px;
+}
+.life{
+    border: solid;
+    border-radius: 12px;
+    border-color: #DBDBDB;
+    width: 380px;
+    height: 230px;
+}
+.karta3{
+    margin-left: 20px;
+    border: solid;
+    border-radius: 12px;
+    border-color: #DBDBDB;
+    width: 380px;
+    height: 230px;
+}
+.akoo{
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 50px;
+    height: 45px;
+}
+.time{
+   margin-left:100px;
+   margin-top: 2px;
+   
+}
+.ktrl{
+    height:1px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.name{
+    margin-top: 5px;
+   margin-left: 90px;
+}
+.entr{
+    background-color: red;
+    height: 0px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.box6{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.anna{
+    width: 380px;
+    font-size: 26px;
+    margin-top: 30px;
+}
+.risc{
+    border: solid;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    background-color: #24AFB5;
+    border-color: #24AFB5;
+    margin-left: 10px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.oook{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.sakkiz01{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;  
+}
+.sakkiz1{
+    width: 500px;
+}
+.sakkiz1img{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sakkiz1img2{
+    width: 305px;
+    margin-top: 20px; 
+}
+.sakkiz1img3span{
+    padding-top: 20px;
+}
+.toqqiz{
+    background-color: rgba(219,219,219,1);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.toqqiztxt{
+    width: 500px;
+}
+.toqqiztxt1{
+    color: gray;
+    font-size: 12px;
+    width: 400px;
+    margin: 0 auto;
+}
+.toqqiznav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toqqiz-ul{
+    display: flex;
+    list-style: none;
+    width: 400px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.toqqiza{
+    text-decoration: none;
+    color: black;
+    margin-left: 18px;
+}
+.sakkiz2txt2{
+    margin-top: 10px;
+}
+.sakkiz3txt2{
+    margin-top: 10px;
+}
+.sakkiz4txt2{
+    margin-top: 10px;
+}
+.gamburger{
+    width: 50px;
+    height: 30px;
+    margin-top: 10px;
+    display: none;
+}
+.toqqiznav-icons{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.toqqiznav-icons1{
+    margin-right: 20px;
+}
+@media(max-width:320px){
+    .container{
+        width: 75%;
+        height: auto;
+    }
+    .navbar{
+        display: none;
+    }
+    .gamburger{
+        display: flex;
+        margin-left: 120vh;
+        margin-top: 25px;
+        width:60px;
+        height: 40px;
+    }
+    .lagatip{
+        margin-left:10vh;
+        margin-top: 20px;
+        width: 80px;
+        height: 70px;
+    }
+    .rasm{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15vh;
+    }
+    .foto{
+        width: 900px;
+    }
+   .haw{
+       font-size:55px;
+       width: 900px;
+        margin-left: 15vw;
+        margin-top: 20vw;
+    } 
+    .ikkinci{
+        width: 550px;
+        font-size: 50px;
+        margin-top: 20vw;
+    }
+    .ton{
+        width: 300px;
+        height: 100px;
+        margin-top: 20vw;
+        border-radius: 10px;
+    }
+    .style{
+        font-size:50px;
+    }
+    .partners{
+        font-size: 50px;
+        margin-left:45vw;
+    }
+    .Logitech {
+        height: 100px;
+        margin-top: 20vw;
+    }
+    .google{
+        margin-left: 23vw;
+        height: 100px;
+        margin-top: 20vw;
+    }
+    .facebook{
+        height: 90px;
+        margin-top: 80vw;
+        margin-left: -45em;
+    }
+    .linkedin{
+        margin-top:80vw;
+        height: 100px;
+        margin-left: 100px;
+    }
+    .philips{
+        margin-top: 28em;
+        margin-left: -58em;
+        height: 100px;
+        width: 200px;
+    }
+    .caps{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .tv{
+        width: 1200px;
+        margin-left: -6em;
+    }
+    .no{
+        width: 350px;
+        font-size: 50px;
+        margin-left: 5em;
+        margin-top: 50px;
+    }
+    .example{
+        width: 900px;
+        font-size: 90px;
+        margin-left: -8vw;
+        margin-top: 50px;
+    }
+    .for{
+        width: 650px;
+        font-size: 60px;
+        margin-left: 2em;
+        margin-top: 30px;
+    }
+    .get{
+        width: 800px;
+    }
+    .sure{
+        font-size: 60px;
+        margin-left: 1em;
+        margin-top: 60px;
+    }
+    .hammasi{
+        display: flex;
+        flex-direction: column;
+    }
+    .history{
+        width: 600px;
+        font-size: 50px;
+        margin-left: 3em;
+    }
+    .divs{
+        width: 800px;
+        margin-top: 20vw;
+    }
+    .rit{
+        width: 700px;
+        height: 90px;
+        margin-left: 11em;
+    }
+    .subs{
+        width: 250px;
+        height: 100px;
+        margin-top: 80px;
+        margin-left: 11em;
+        border-radius: 5px;
+    }
+    .hea{
+        margin-left: 4em;
+    }
+    .box4{
+        display: flex;
+        flex-direction: column;
+    }
+    .scss{
+        font-size: 40px;
+    }
+    .with{
+        display: none;
+    }
+    .so{
+        width: 400px;
+        margin-top: 15em;
+        margin-left: 14em;
+    }
+    .way{
+        font-size: 70px;
+    }
+    .know{
+        width: 850px;
+        margin-top: 5em;
+        margin-left: 12em;
+    }
+    .go{
+        font-size: 50px;
+    }
+    .app{
+        width: 500px;
+        height: 150px;
+        margin-left: 11em;
+        background-color: #DBDBDB;
+        border-radius: 20px;
+        margin-top: 3em;
+    }
+    .samsung{
+        width: 500px;
+        height: 150px;
+        margin-left: 11em;
+        background-color:#DBDBDB ;
+        border-radius: 20px;
+        margin-top: 1em;
+    }
+    .markets{
+        display: flex;
+        flex-direction: column;
+    }
+    .play{
+        font-size: 90px;
+        margin-top: 20px;
+    }
+    .apple{
+        font-size: 150px;
+        margin-top: 2vw;
+    }
+    .markets{
+        font-size: 40px;
+        margin-top: 5vw;
+        margin-left: -6em;
+    }
+    .inthe{
+        font-size: 50px;
+    }
+    .store{
+        font-size: 40px;
+        margin-left: 1em;
+    }
+    .onthe{
+        font-size: 50px;
+    }
+    .hoho{
+        width: 900px;
+        font-size: 50px;
+        margin-top: 3em;
+    }
+    .tel{
+        width: 900px;
+    }
+    .s7edge{
+        width: 900px;
+        height: 800px;
+        margin-top: 10em;
+        margin-left: 5em;
+    }
+    .each{
+        width: 600px;
+        margin-left: 12em;
+    }
+    .moment{
+        font-size: 60px;
+    }
+    .face{
+        width: 900px;
+        margin-left: 7em;
+        margin-top: 4em;
+    }
+    .enomirty{
+        font-size: 50px;
+    }
+    .life{
+        display: none;
+    }
+    .half{
+        display: none;
+    }
+    .karta3{
+        display: none;
+    }
+    .kamfort{
+       display: none;
+    }
+    
+    .anna{
+        width:750px;
+        font-size:60px;
+        margin-top: -1em;
+        margin-left: 1em;
+    }
+    .risc{
+     display: none;
+    }
+    .sakkiz01{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
